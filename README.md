@@ -1,5 +1,6 @@
 # Sky Tracker: End-to-End Flight Telemetry Pipeline & Interactive Dashboard
 <div align="center">
+    
 [![DuckDB](https://img.shields.io/badge/DuckDB-000000?style=for-the-badge&logo=duckdb&logoColor=FFF000)](#)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 [![Power_BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#)
