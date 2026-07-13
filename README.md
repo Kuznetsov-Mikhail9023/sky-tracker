@@ -1,4 +1,4 @@
-# Sky Tracker: End-to-End Flight Telemetry Pipeline & Interactive Dashboard
+# Sky Tracker: End-to-End Flight Telemetry Pipeline & Interactive Dashboard (Work in Progress)
 <div align="center">
     
 [![DuckDB](https://img.shields.io/badge/DuckDB-000000?style=for-the-badge&logo=duckdb&logoColor=FFF000)](#)
