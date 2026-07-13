@@ -65,3 +65,19 @@ COPY (
       AND latitude IS NOT NULL
       AND longitude IS NOT NULL
 ) TO '../data/flights_export.csv' (HEADER, DELIMITER ',');
+
+### Phase 3: Business BI Insights & Map Visualizations
+
+The optimized dataset was ingested into Power BI to create an interactive command center for tracking live flight paths:
+* **High-Level KPI Tracking:** The dashboard instantly calculates and visualizes key metrics, including total observed flights, peak altitudes, and average velocity distributions.
+* **Geospatial Mapping:** Plots real-time aircraft paths using latitude and longitude parameters, allowing users to track global flight activity dynamically.
+* **Modular Project Path Parameterization:** Implemented a customizable `ProjectPath` Power Query Parameter, enabling any user to re-link the entire data model to their local directory in a single click without modifying underlying table queries.
+
+---
+
+## 🚀 How to Access and Run the Project
+
+1. **Clone the Repository:**
+   bash
+   git clone [https://github.com/Kuznetsov-Mikhail9023/sky-tracker.git](https://github.com/Kuznetsov-Mikhail9023/sky-tracker.git)
+   cd sky-tracker
