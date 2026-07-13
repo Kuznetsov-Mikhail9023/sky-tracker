@@ -10,13 +10,11 @@ An end-to-end data engineering and business intelligence project designed to ing
 
 ## 📊 Interactive Dashboard Preview
 
-*(Добавь сюда скриншоты своего дашборда из Power BI по аналогии с прошлым проектом!)*
+### 1. OpenSky Network Live Map (Data Source)
+![OpenSky Live Map](images/opensky.png)
 
-### 1. Global Flight Tracking & Live Telemetry Map
-`![Dashboard Preview 1](dashboard/preview_map.png)`
-
-### 2. Fleet Speed & Altitude Analysis
-`![Dashboard Preview 2](dashboard/preview_analytics.png)`
+### 2. Power BI Flight Radar Dashboard
+![Power BI Dashboard](images/sky_visual.png)
 
 ---
 
