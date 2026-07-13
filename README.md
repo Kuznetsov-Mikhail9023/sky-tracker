@@ -1,9 +1,9 @@
 # Sky Tracker: End-to-End Flight Telemetry Pipeline & Interactive Dashboard
-
+<div align="center">
 [![DuckDB](https://img.shields.io/badge/DuckDB-000000?style=for-the-badge&logo=duckdb&logoColor=FFF000)](#)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 [![Power_BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#)
-
+<div>
 An end-to-end data engineering and business intelligence project designed to ingest live flight telemetry data, store and process it using DuckDB, and build an interactive geospatial flight tracking dashboard in Power BI. The pipeline automates real-time data collection, cleans and transforms raw API states via SQL, and exports optimized datasets for downstream analytical visualization.
 
 ---
