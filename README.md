@@ -65,6 +65,7 @@ COPY (
       AND latitude IS NOT NULL
       AND longitude IS NOT NULL
 ) TO '../data/flights_export.csv' (HEADER, DELIMITER ',');
+```
 
 ### Phase 3: Business BI Insights & Map Visualizations
 
@@ -78,6 +79,28 @@ The optimized dataset was ingested into Power BI to create an interactive comman
 ## 🚀 How to Access and Run the Project
 
 1. **Clone the Repository:**
-   bash
+   ```bash
    git clone [https://github.com/Kuznetsov-Mikhail9023/sky-tracker.git](https://github.com/Kuznetsov-Mikhail9023/sky-tracker.git)
    cd sky-tracker
+   ```
+2. **Execute Ingestion Pipeline:**
+   Run the collector script to populate the database with live flight state vectors:
+   ```bash
+   python scripts/collector.py
+   ```
+3. **Run ETL & Export Clean Data:**
+   Run the SQL export logic via DBeaver or Python to write the latest analytical dataset:
+   ```bash
+   # Generates data/flights_export.csv
+   ```
+4. **Launch Dashboard:**
+   * Open `dashboard/sky_tracer_visual.pbix` in **Power BI Desktop**.
+   * Navigate to *Transform Data* -> *Edit Parameters*.
+   * Change the `ProjectPath` parameter to match your local repository directory and click *Apply Changes*.
+
+---
+
+## 📄 License & Data Source
+
+* **License:** This project is open-source and licensed under the [MIT License](LICENSE).
+* **Data Source:** Live flight vector data provided by the **OpenSky Network API**.
