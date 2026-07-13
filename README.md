@@ -80,7 +80,7 @@ The optimized dataset was ingested into Power BI to create an interactive comman
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/Kuznetsov-Mikhail9023/sky-tracker.git](https://github.com/Kuznetsov-Mikhail9023/sky-tracker.git)
+   git clone (https://github.com/Kuznetsov-Mikhail9023/sky-tracker.git)
    cd sky-tracker
    ```
 2. **Execute Ingestion Pipeline:**
